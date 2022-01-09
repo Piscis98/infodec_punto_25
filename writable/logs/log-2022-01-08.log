@@ -1,0 +1,275 @@
+CRITICAL - 2022-01-08 18:16:57 --> Call to undefined function App\Controllers\Calificacion()
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 18:17:47 --> Error connecting to the database: Variable 'character_set_client' can't be set to the value of 'utf16'
+CRITICAL - 2022-01-08 18:17:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Variable 'character_set_client' can't be set to the value of 'utf16'
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(13): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#6 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#7 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-08 18:20:47 --> Error connecting to the database: Variable 'character_set_client' can't be set to the value of 'utf16'
+CRITICAL - 2022-01-08 18:20:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Variable 'character_set_client' can't be set to the value of 'utf16'
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(13): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#6 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#7 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 18:42:50 --> Undefined variable $header
+#0 /opt/lampp/htdocs/prueba-infodec-25/app/Views/calificaciones/listar_calificaciones.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(210): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/Common.php(1089): CodeIgniter\View\View->render('calificaciones/...', Array, true)
+#4 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(17): view('calificaciones/...', Array)
+#5 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#6 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#7 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 19:50:56 --> Call to undefined function App\Controllers\validate()
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->agregar()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-08 19:52:32 --> Undefined constant "App\Controllers\redirect"
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->agregar()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-08 20:17:34 --> Class "App\Models\CustomRules\CalificacionCustomRule" not found
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/Validation/Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(43): CodeIgniter\Controller->validate(Array)
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->agregar()
+#4 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#5 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-08 20:21:05 --> Class "App\Models\CustomRules\CalificacionCustomRules" not found
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/Validation/Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(43): CodeIgniter\Controller->validate(Array)
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->agregar()
+#4 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#5 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-08 21:36:08 --> Call to undefined function calcularNota2()
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/Common.php(1089): CodeIgniter\View\View->render('template/footer', Array, true)
+#3 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(32): view('template/footer')
+#4 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->agregarCalificacion()
+#5 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#6 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-08 22:27:19 --> Column 'nota_final' cannot be null
+CRITICAL - 2022-01-08 22:27:19 --> Call to undefined function App\Controllers\index()
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->agregar()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 22:29:20 --> Column 'nota_final' cannot be null
+CRITICAL - 2022-01-08 22:29:20 --> Call to undefined function App\Controllers\index()
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->agregar()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 22:30:10 --> Column 'nota_final' cannot be null
+CRITICAL - 2022-01-08 22:30:10 --> Call to undefined function App\Controllers\index()
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->agregar()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 22:32:35 --> Column 'nota_final' cannot be null
+CRITICAL - 2022-01-08 22:37:14 --> Array to string conversion
+#0 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 54)
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->agregar()
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-08 22:38:36 --> Column 'nota_final' cannot be null
+ERROR - 2022-01-08 22:44:57 --> Column 'nota_final' cannot be null
+ERROR - 2022-01-08 22:50:33 --> Column 'nota_final' cannot be null
+ERROR - 2022-01-08 22:55:03 --> Column 'nota_final' cannot be null
+CRITICAL - 2022-01-08 23:00:15 --> CodeIgniter\Model::insert(): Argument #2 ($returnID) must be of type bool, array given, called in /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php on line 61
+#0 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(61): CodeIgniter\Model->insert('calificacion', Array)
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->agregar()
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-08 23:06:43 --> Column 'nota_final' cannot be null
+CRITICAL - 2022-01-08 23:40:21 --> Undefined variable $db
+#0 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 18)
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(802): App\Controllers\Calificaciones->__construct()
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 23:40:56 --> Undefined variable $builder
+#0 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 24)
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 23:41:16 --> Undefined variable $builder
+#0 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 25)
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-08 23:41:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CALL obtenerCalificaciones()
+FROM `calificacion`' at line 1
+CRITICAL - 2022-01-08 23:41:37 --> foreach() argument must be of type array|object, bool given
+#0 /opt/lampp/htdocs/prueba-infodec-25/app/Views/calificaciones/listar_calificaciones.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/opt/lampp/htdo...', 21)
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(210): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/Common.php(1089): CodeIgniter\View\View->render('calificaciones/...', Array, true)
+#4 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(31): view('calificaciones/...', Array)
+#5 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#6 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#7 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-08 23:43:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CALL obtenerCalificaciones()
+FROM `calificacion`' at line 1
+CRITICAL - 2022-01-08 23:43:29 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 23:48:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CALL obtenerCalificaciones()
+FROM `calificacion`' at line 1
+CRITICAL - 2022-01-08 23:48:14 --> foreach() argument must be of type array|object, bool given
+#0 /opt/lampp/htdocs/prueba-infodec-25/app/Views/calificaciones/listar_calificaciones.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/opt/lampp/htdo...', 21)
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(210): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/prueba-infodec-25/system/Common.php(1089): CodeIgniter\View\View->render('calificaciones/...', Array, true)
+#4 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(31): view('calificaciones/...', Array)
+#5 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#6 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#7 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-08 23:49:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CALL obtenerCalificaciones()
+FROM `calificacion`' at line 1
+ERROR - 2022-01-08 23:49:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CALL obtenerCalificaciones()
+FROM `calificacion`' at line 1
+CRITICAL - 2022-01-08 23:49:46 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 23:51:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM calificacion
+FROM `calificacion`' at line 1
+CRITICAL - 2022-01-08 23:51:09 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 23:51:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM calificacion
+FROM `calificacion`' at line 1
+CRITICAL - 2022-01-08 23:51:11 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 23:51:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM calificacion
+FROM `calificacion`' at line 1
+CRITICAL - 2022-01-08 23:51:12 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 23:51:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM calificacion
+FROM `calificacion`' at line 1
+CRITICAL - 2022-01-08 23:51:12 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 23:51:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM calificacion
+FROM `calificacion`' at line 1
+CRITICAL - 2022-01-08 23:51:12 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 23:51:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM calificacion
+FROM `calificacion`' at line 1
+CRITICAL - 2022-01-08 23:51:12 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-08 23:51:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM calificacion
+FROM `calificacion`' at line 1
+CRITICAL - 2022-01-08 23:51:12 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-08 23:56:40 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/Common.php(1089): CodeIgniter\View\View->render('calificaciones/...', Array, true)
+#3 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(32): view('calificaciones/...', Array)
+#4 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#5 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#6 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-08 23:57:30 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/Common.php(1089): CodeIgniter\View\View->render('calificaciones/...', Array, true)
+#3 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(32): view('calificaciones/...', Array)
+#4 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#5 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#6 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-08 23:59:55 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/prueba-infodec-25/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/prueba-infodec-25/system/Common.php(1089): CodeIgniter\View\View->render('calificaciones/...', Array, true)
+#3 /opt/lampp/htdocs/prueba-infodec-25/app/Controllers/Calificaciones.php(32): view('calificaciones/...', Array)
+#4 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(825): App\Controllers\Calificaciones->index()
+#5 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calificaciones))
+#6 /opt/lampp/htdocs/prueba-infodec-25/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/prueba-infodec-25/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
